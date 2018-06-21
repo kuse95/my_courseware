@@ -1,0 +1,16 @@
+{
+  "name": "mycourseware",
+  "productName": "myCourseware",
+  "version": "0.1.0",
+  "description": "H5课件编辑器",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "linli",
+  "license": "ISC",
+  "electronVersion": "2.0.2",
+  "devDependencies": {
+    "electron": "^2.0.2"
+  }
+}
