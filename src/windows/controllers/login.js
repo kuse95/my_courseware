@@ -17,6 +17,7 @@ class SignWindow {
     this.signwindow.loadFile(path.join(__dirname, '/../views/login.html'));
     if(isDebug){
       this.signwindow.webContents.openDevTools();
+      require('devtron').install();
     }
     this.isShown = false;
   }

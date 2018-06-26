@@ -3,9 +3,13 @@ const signData = {
   HEIGHT:642
 };
 
+const mainData = {
+}
+
 const isDebug = true;
 
 module.exports = {
   isDebug,
-  signData
+  signData,
+  mainData
 }

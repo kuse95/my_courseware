@@ -4,11 +4,9 @@ html,body{
   width: 100%;
   height: 100%;
 }
-body{
+.sign-container{
   -webkit-app-region: drag;
   user-select: none;
-}
-.sign-container{
   position: absolute;
   top: 70px;
   bottom: 70px;
@@ -22,7 +20,7 @@ body{
   animation:comeInto 0.5s ease-in 1;
 }
 .sign-header{
-  padding: 30px 0 5px;
+  padding: 30px 0 16px;
   color: #0084ff;
   text-align: center;
 }
@@ -37,7 +35,22 @@ body{
   font-size: 22px;
 }
 .sign-inner{
-  padding: 0 40px 36px;
+  padding: 0 40px 0;
+}
+.login{
+  display: none;
+}
+
+.area-code{
+  float: left;
+}
+
+.seperator{
+  float: left;
+  width: 1px;
+  height: 22px;
+  margin: 24px 12px 0;
+  background: #ebebeb;
 }
 
 .btn{
